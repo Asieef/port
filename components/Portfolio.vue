@@ -1,15 +1,123 @@
 <template>
     <!-- Wrapper Div -->
-    <div class="grid grid-cols-2 mx-4 font-display">
+    <div class="grid grid-cols-2 mx-4 font-display gap-4">
         <!-- Left Panel -->
         <div class="col-span-1">
             <!-- Left Top -->
-            <div class="grid grid-rows-2">
+            <div class="grid grid-rows-2 gap-4">
                 <div class="row-span-1">
-                    <div class="grid grid-rows-2">
+                    <div class="grid grid-rows-2 gap-2">
                         <div class="row-span-1">
-                            <div class="grid grid-cols-2">
-                                <div class="col-span-1 relative flex items-center justify-center">
+                            <div class="grid grid-cols-2 gap-4">
+                                <!-- Left Top Left -->
+
+                                <NuxtLink to>
+                                    <div
+                                        class="col-span-1"
+                                        @mouseenter="toggleSpecV"
+                                        @mouseleave="toggleSpecV"
+                                    >
+                                        <div class="relative flex justify-center items-center">
+                                            <!-- White Banner  -->
+
+                                            <transition
+                                                enter-active-class="transition ease-out duration-300"
+                                                enter-class="transform opacity-0 scale-95"
+                                                enter-to-class="transform opacity-100 scale-100"
+                                                leave-active-class="transition ease-in duration-75"
+                                                leave-class="transform opacity-100 scale-100"
+                                                leave-to-class="transform opacity-0 scale-95"
+                                            >
+                                                <div
+                                                    class="absolute bg-white h-5/6 w-5/6 z-10"
+                                                    v-if="showSpecV"
+                                                >
+                                                    <div class="flex justify-end p-6">
+                                                        <img src="/plus.png" class="h-8" />
+                                                    </div>
+                                                    <div
+                                                        class="flex justify-center items-center text-center"
+                                                    >
+                                                        <div>
+                                                            <h2
+                                                                class="text-gray-800 font-medium text-sm"
+                                                            >Value-Top</h2>
+                                                            <h2
+                                                                class="text-gray-600 text-xs py-4"
+                                                            >Website Made with Nuxt.Js</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </transition>
+
+                                            <!-- White Banner Ends -->
+
+                                            <img src="/portfolio/valuetop-banner.jpg" />
+                                        </div>
+                                    </div>
+                                </NuxtLink>
+
+                                <!-- Left Top Right -->
+
+                                <NuxtLink to>
+                                    <div
+                                        class="col-span-1"
+                                        @mouseenter="toggleSpecR"
+                                        @mouseleave="toggleSpecR"
+                                    >
+                                        <div class="relative flex justify-center items-center">
+                                            <!-- White Banner  -->
+
+                                            <transition
+                                                enter-active-class="transition ease-out duration-300"
+                                                enter-class="transform opacity-0 scale-95"
+                                                enter-to-class="transform opacity-100 scale-100"
+                                                leave-active-class="transition ease-in duration-75"
+                                                leave-class="transform opacity-100 scale-100"
+                                                leave-to-class="transform opacity-0 scale-95"
+                                            >
+                                                <div
+                                                    class="absolute bg-white h-5/6 w-5/6 z-10"
+                                                    v-if="showSpecR"
+                                                >
+                                                    <div class="flex justify-end p-6">
+                                                        <img src="/plus.png" class="h-8" />
+                                                    </div>
+                                                    <div
+                                                        class="flex justify-center items-center text-center"
+                                                    >
+                                                        <div>
+                                                            <h2
+                                                                class="text-gray-800 font-medium text-sm"
+                                                            >Rongta</h2>
+                                                            <h2
+                                                                class="text-gray-600 text-xs py-4"
+                                                            >Website Made with Nuxt.Js</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </transition>
+
+                                            <!-- White Banner Ends -->
+
+                                            <img src="/portfolio/rongta-banner.jpg" />
+                                        </div>
+                                    </div>
+                                </NuxtLink>
+                            </div>
+                        </div>
+
+                        <!-- Left Middle -->
+
+                        <NuxtLink to>
+                            <div
+                                class="row-span-1"
+                                @mouseenter="toggleSpecT"
+                                @mouseleave="toggleSpecT"
+                            >
+                                <div class="relative flex justify-center items-center">
+                                    <!-- White Banner  -->
+
                                     <transition
                                         enter-active-class="transition ease-out duration-300"
                                         enter-class="transform opacity-0 scale-95"
@@ -19,55 +127,149 @@
                                         leave-to-class="transform opacity-0 scale-95"
                                     >
                                         <div
-                                            class="bg-white h-5/6 w-5/6 absolute z-10 flex justify-center items-center text-center cursor-pointer"
-                                            v-if="showSpec"
+                                            class="absolute bg-white h-5/6 w-5/6 z-10"
+                                            v-if="showSpecT"
                                         >
-                                            <div>
-                                                <h2
-                                                    class="text-gray-700 text-sm font-medium"
-                                                >Value-Top</h2>
-                                                <h2
-                                                    class="text-gray-500 text-xs"
-                                                >Website Made with Nuxt.JS</h2>
+                                            <div class="flex justify-end p-6">
+                                                <img src="/plus.png" class="h-8" />
                                             </div>
-
-                                            <img src="/plus.png" class="h-4" />
+                                            <div
+                                                class="flex justify-center items-center text-center"
+                                            >
+                                                <div>
+                                                    <h2
+                                                        class="text-gray-800 font-medium text-sm"
+                                                    >Tailwind</h2>
+                                                    <h2
+                                                        class="text-gray-600 text-xs py-4"
+                                                    >HTML Template Made With Tailwind</h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </transition>
-                                    <Nuxtlink to>
-                                        <img src="/valuetop.jpg" @mouseover="toggleSpec" />
-                                    </Nuxtlink>
-                                </div>
 
-                                <div class="col-span-1 relative flex items-center justify-center">
-                                    <!-- <div class="bg-white h-5/6 w-5/6 absolute z-10"></div> -->
-                                    <img src="/vue.jpg" />
+                                    <!-- White Banner Ends -->
+
+                                    <img src="/portfolio/tailwind-banner.jpg" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="row-span-1 relative flex items-center justify-center">
-                            <!-- <div class="bg-white h-5/6 w-5/6 absolute z-10"></div> -->
-                            <img src="/rongta.jpg" />
-                        </div>
+                        </NuxtLink>
                     </div>
                 </div>
                 <!-- Left Bottom -->
-                <div class="row-span-1">
-                    <img src="/airlock.jpg" />
-                </div>
+                <NuxtLink to>
+                    <div class="row-span-1" @mouseenter="toggleSpecG" @mouseleave="toggleSpecG">
+                        <div class="relative flex justify-center items-center">
+                            <!-- White Banner  -->
+
+                            <transition
+                                enter-active-class="transition ease-out duration-300"
+                                enter-class="transform opacity-0 scale-95"
+                                enter-to-class="transform opacity-100 scale-100"
+                                leave-active-class="transition ease-in duration-75"
+                                leave-class="transform opacity-100 scale-100"
+                                leave-to-class="transform opacity-0 scale-95"
+                            >
+                                <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecG">
+                                    <div class="flex justify-end p-6">
+                                        <img src="/plus.png" class="h-8" />
+                                    </div>
+                                    <div class="flex justify-center items-center text-center">
+                                        <div>
+                                            <h2 class="text-gray-800 font-medium text-sm">Our Galaxy</h2>
+                                            <h2
+                                                class="text-gray-600 text-xs py-4"
+                                            >HTML Template Made With CSS</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </transition>
+
+                            <!-- White Banner Ends -->
+
+                            <img src="/portfolio/galaxy-banner.jpg" />
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
         </div>
 
         <!-- Right Panel -->
 
         <div class="col-span-1">
-            <div class="grid grid-rows-2">
-                <div class="row-span-1">
-                    <img src="galaxy.jpg" class />
-                </div>
-                <div class="row-span-1">
-                    <img src="tailwind.jpg" />
-                </div>
+            <div class="grid grid-rows-2 gap-4">
+                <!-- Right Top -->
+                <NuxtLink to>
+                    <div class="row-span-1" @mouseenter="toggleSpecA" @mouseleave="toggleSpecA">
+                        <div class="relative flex justify-center items-center">
+                            <!-- White Banner  -->
+
+                            <transition
+                                enter-active-class="transition ease-out duration-300"
+                                enter-class="transform opacity-0 scale-95"
+                                enter-to-class="transform opacity-100 scale-100"
+                                leave-active-class="transition ease-in duration-75"
+                                leave-class="transform opacity-100 scale-100"
+                                leave-to-class="transform opacity-0 scale-95"
+                            >
+                                <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecA">
+                                    <div class="flex justify-end p-6">
+                                        <img src="/plus.png" class="h-8" />
+                                    </div>
+                                    <div class="flex justify-center items-center text-center">
+                                        <div>
+                                            <h2 class="text-gray-800 font-medium text-sm">Air-Lock</h2>
+                                            <h2
+                                                class="text-gray-600 text-xs py-4"
+                                            >HTML Template Made with CSS</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </transition>
+
+                            <!-- White Banner Ends -->
+
+                            <img src="/portfolio/airlock-banner.jpg" />
+                        </div>
+                    </div>
+                </NuxtLink>
+
+                <!-- Right Bottom -->
+
+                <NuxtLink to>
+                    <div class="row-span-1" @mouseenter="toggleSpecVue" @mouseleave="toggleSpecVue">
+                        <div class="relative flex justify-center items-center">
+                            <!-- White Banner  -->
+
+                            <transition
+                                enter-active-class="transition ease-out duration-300"
+                                enter-class="transform opacity-0 scale-95"
+                                enter-to-class="transform opacity-100 scale-100"
+                                leave-active-class="transition ease-in duration-75"
+                                leave-class="transform opacity-100 scale-100"
+                                leave-to-class="transform opacity-0 scale-95"
+                            >
+                                <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecVue">
+                                    <div class="flex justify-end p-6">
+                                        <img src="/plus.png" class="h-8" />
+                                    </div>
+                                    <div class="flex justify-center text-center">
+                                        <div>
+                                            <h2 class="text-gray-800 font-medium text-sm">VUE.JS</h2>
+                                            <h2
+                                                class="text-gray-600 text-xs py-4"
+                                            >Website Made With Vue.JS</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </transition>
+
+                            <!-- White Banner Ends -->
+
+                            <img src="/portfolio/vue-banner.jpg" />
+                        </div>
+                    </div>
+                </NuxtLink>
             </div>
         </div>
     </div>
@@ -78,16 +280,40 @@
 export default {
     data() {
         return {
-            showSpec: false
+            showSpecV: false,
+            showSpecR: false,
+            showSpecT: false,
+            showSpecG: false,
+            showSpecA: false,
+            showSpecVue: false
         }
     },
 
     methods: {
-        toggleSpec() {
-            this.showSpec = !this.showSpec
-        }
-    }
+        toggleSpecV() {
+            this.showSpecV = !this.showSpecV
+        },
 
+        toggleSpecR() {
+            this.showSpecR = !this.showSpecR
+        },
+
+        toggleSpecT() {
+            this.showSpecT = !this.showSpecT
+        },
+
+        toggleSpecG() {
+            this.showSpecG = !this.showSpecG
+        },
+
+        toggleSpecA() {
+            this.showSpecA = !this.showSpecA
+        },
+
+        toggleSpecVue() {
+            this.showSpecVue = !this.showSpecVue
+        },
+    }
 }
 </script>
 
