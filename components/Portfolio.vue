@@ -32,19 +32,21 @@
                                                     class="absolute bg-white h-5/6 w-5/6 z-10"
                                                     v-if="showSpecV"
                                                 >
-                                                    <div class="flex justify-end p-6">
-                                                        <img src="/plus.png" class="h-8" />
-                                                    </div>
                                                     <div
-                                                        class="flex justify-center items-center text-center"
+                                                        class="relative bg-white w-full h-full flex justify-center items-center"
                                                     >
-                                                        <div>
-                                                            <h2
-                                                                class="text-gray-800 font-medium text-sm"
-                                                            >Value-Top</h2>
-                                                            <h2
-                                                                class="text-gray-600 text-xs py-4"
-                                                            >Website Made with Nuxt.Js</h2>
+                                                        <div class="absolute top-4 right-4">
+                                                            <img src="/plus.png" class="h-8" />
+                                                        </div>
+                                                        <div class="text-center">
+                                                            <div>
+                                                                <h2
+                                                                    class="text-gray-800 font-medium text-sm"
+                                                                >VUE.JS</h2>
+                                                                <h2
+                                                                    class="text-gray-600 text-xs py-4"
+                                                                >Website Made With Vue.JS</h2>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -80,19 +82,21 @@
                                                     class="absolute bg-white h-5/6 w-5/6 z-10"
                                                     v-if="showSpecR"
                                                 >
-                                                    <div class="flex justify-end p-6">
-                                                        <img src="/plus.png" class="h-8" />
-                                                    </div>
                                                     <div
-                                                        class="flex justify-center items-center text-center"
+                                                        class="relative bg-white w-full h-full flex justify-center items-center"
                                                     >
-                                                        <div>
-                                                            <h2
-                                                                class="text-gray-800 font-medium text-sm"
-                                                            >Rongta</h2>
-                                                            <h2
-                                                                class="text-gray-600 text-xs py-4"
-                                                            >Website Made with Nuxt.Js</h2>
+                                                        <div class="absolute top-4 right-4">
+                                                            <img src="/plus.png" class="h-8" />
+                                                        </div>
+                                                        <div class="text-center">
+                                                            <div>
+                                                                <h2
+                                                                    class="text-gray-800 font-medium text-sm"
+                                                                >VUE.JS</h2>
+                                                                <h2
+                                                                    class="text-gray-600 text-xs py-4"
+                                                                >Website Made With Vue.JS</h2>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -130,19 +134,21 @@
                                             class="absolute bg-white h-5/6 w-5/6 z-10"
                                             v-if="showSpecT"
                                         >
-                                            <div class="flex justify-end p-6">
-                                                <img src="/plus.png" class="h-8" />
-                                            </div>
                                             <div
-                                                class="flex justify-center items-center text-center"
+                                                class="relative bg-white w-full h-full flex justify-center items-center"
                                             >
-                                                <div>
-                                                    <h2
-                                                        class="text-gray-800 font-medium text-sm"
-                                                    >Tailwind</h2>
-                                                    <h2
-                                                        class="text-gray-600 text-xs py-4"
-                                                    >HTML Template Made With Tailwind</h2>
+                                                <div class="absolute top-4 right-4">
+                                                    <img src="/plus.png" class="h-8" />
+                                                </div>
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h2
+                                                            class="text-gray-800 font-medium text-sm"
+                                                        >VUE.JS</h2>
+                                                        <h2
+                                                            class="text-gray-600 text-xs py-4"
+                                                        >Website Made With Vue.JS</h2>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -171,15 +177,19 @@
                                 leave-to-class="transform opacity-0 scale-95"
                             >
                                 <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecG">
-                                    <div class="flex justify-end p-6">
-                                        <img src="/plus.png" class="h-8" />
-                                    </div>
-                                    <div class="flex justify-center items-center text-center">
-                                        <div>
-                                            <h2 class="text-gray-800 font-medium text-sm">Our Galaxy</h2>
-                                            <h2
-                                                class="text-gray-600 text-xs py-4"
-                                            >HTML Template Made With CSS</h2>
+                                    <div
+                                        class="relative bg-white w-full h-full flex justify-center items-center"
+                                    >
+                                        <div class="absolute top-4 right-4">
+                                            <img src="/plus.png" class="h-8" />
+                                        </div>
+                                        <div class="text-center">
+                                            <div>
+                                                <h2 class="text-gray-800 font-medium text-sm">VUE.JS</h2>
+                                                <h2
+                                                    class="text-gray-600 text-xs py-4"
+                                                >Website Made With Vue.JS</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -213,15 +223,19 @@
                                 leave-to-class="transform opacity-0 scale-95"
                             >
                                 <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecA">
-                                    <div class="flex justify-end p-6">
-                                        <img src="/plus.png" class="h-8" />
-                                    </div>
-                                    <div class="flex justify-center items-center text-center">
-                                        <div>
-                                            <h2 class="text-gray-800 font-medium text-sm">Air-Lock</h2>
-                                            <h2
-                                                class="text-gray-600 text-xs py-4"
-                                            >HTML Template Made with CSS</h2>
+                                    <div
+                                        class="relative bg-white w-full h-full flex justify-center items-center"
+                                    >
+                                        <div class="absolute top-4 right-4">
+                                            <img src="/plus.png" class="h-8" />
+                                        </div>
+                                        <div class="text-center">
+                                            <div>
+                                                <h2 class="text-gray-800 font-medium text-sm">VUE.JS</h2>
+                                                <h2
+                                                    class="text-gray-600 text-xs py-4"
+                                                >Website Made With Vue.JS</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -250,15 +264,19 @@
                                 leave-to-class="transform opacity-0 scale-95"
                             >
                                 <div class="absolute bg-white h-5/6 w-5/6 z-10" v-if="showSpecVue">
-                                    <div class="flex justify-end p-6">
-                                        <img src="/plus.png" class="h-8" />
-                                    </div>
-                                    <div class="flex justify-center text-center">
-                                        <div>
-                                            <h2 class="text-gray-800 font-medium text-sm">VUE.JS</h2>
-                                            <h2
-                                                class="text-gray-600 text-xs py-4"
-                                            >Website Made With Vue.JS</h2>
+                                    <div
+                                        class="relative bg-white w-full h-full flex justify-center items-center"
+                                    >
+                                        <div class="absolute top-4 right-4">
+                                            <img src="/plus.png" class="h-8" />
+                                        </div>
+                                        <div class="text-center">
+                                            <div>
+                                                <h2 class="text-gray-800 font-medium text-sm">VUE.JS</h2>
+                                                <h2
+                                                    class="text-gray-600 text-xs py-4"
+                                                >Website Made With Vue.JS</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
