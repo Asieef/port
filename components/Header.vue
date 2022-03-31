@@ -17,9 +17,10 @@
                         >asieef kabir</h2>
                     </div>
                     <div class="flex justify-center">
-                        <h2
-                            class="font-display text-xs font-medium text-gray-500 uppercase py-2"
-                        >Designer & Frontend Developer</h2>
+                        <h2 class="font-display text-xs font-medium text-gray-500 uppercase py-2">
+                            Designer & Frontend
+                            Developer
+                        </h2>
                     </div>
                 </div>
             </div>
