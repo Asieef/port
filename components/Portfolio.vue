@@ -18,7 +18,7 @@
                                 <div class="grid grid-cols-2 gap-4">
                                     <!-- Left Top Left VT -->
 
-                                    <NuxtLink to>
+                                    <NuxtLink to="/valuetop">
                                         <div
                                             class="col-span-1"
                                             @mouseenter="toggleSpecV"

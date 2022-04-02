@@ -1,0 +1,79 @@
+<template>
+    <div class="font-display">
+        <div
+            class="h-16 bg-gray-100 text-xl text-[#232323] flex items-center font-semibold font-display px-8"
+        >
+            <NuxtLink to="/">
+                <h2 class="hover:border-b-2 border-[#fecd45]">Home</h2>
+            </NuxtLink>
+        </div>
+        <div>
+            <img src="portfolio/valuetop-header.jpg" />
+        </div>
+
+        <div class="flex justify-center py-12">
+            <h2
+                class="text-3xl flex items-center font-display"
+            >VALUETOP.NET Api Based Website Design</h2>
+        </div>
+        <div class="grid grid-cols-2">
+            <div class="col-span-1 px-24">
+                <p class="text-sm text-[#232323] font-medium leading-7">
+                    This website is based on API, where the products are being fetched from
+                    a JSON database. The site is designed with Tailwind CSS Framework.
+                    Axios has been used to fetch the data, the site is fast and efficient
+                    for users.
+                </p>
+            </div>
+
+            <div class="col-span-1 text-[#232323] flex justify-center text-sm">
+                <div>
+                    <ul class="px-20">
+                        <li class="border-b border-[#fecd45] pb-4">
+                            <h2 class="font-semibold">
+                                Core Technologies :
+                                <span
+                                    class="font-light"
+                                >Vue.JS, Nuxt.JS, Tailwind CSS</span>
+                            </h2>
+                        </li>
+
+                        <li class="border-b border-[#fecd45] py-4">
+                            <h2 class="font-semibold">
+                                Features :
+                                <span class="font-light">Search, Loading Bar, Responsive</span>
+                            </h2>
+                        </li>
+
+                        <li class="border-b border-[#fecd45] py-4">
+                            <h2 class="font-semibold">
+                                Frontend :
+                                <span
+                                    class="font-light"
+                                >Tailwind CSS, Illustrator, Photoshop</span>
+                            </h2>
+                        </li>
+
+                        <li class="border-b border-[#fecd45] py-4">
+                            <h2 class="font-semibold">
+                                Livedemo :
+                                <a
+                                    href="https:/valuetop.net/"
+                                    class="hover:text-gray-500"
+                                >
+                                    <span class="font-light">Valuetop.net</span>
+                                </a>
+                            </h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style>
+.font-display {
+    font-family: "Montserrat";
+}
+</style>
