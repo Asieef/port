@@ -68,7 +68,7 @@
 
                                     <!-- Left Top Right Rongta -->
 
-                                    <NuxtLink to>
+                                    <NuxtLink to="/rongta">
                                         <div
                                             class="col-span-1"
                                             @mouseenter="toggleSpecR"
@@ -120,7 +120,7 @@
 
                             <!-- Left Middle Tailwind -->
 
-                            <NuxtLink to>
+                            <NuxtLink to="tailwind">
                                 <div
                                     class="row-span-1"
                                     @mouseenter="toggleSpecT"
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                     <!-- Left Bottom -->
-                    <NuxtLink to>
+                    <NuxtLink to="/galaxy">
                         <div class="row-span-1" @mouseenter="toggleSpecG" @mouseleave="toggleSpecG">
                             <div class="relative flex justify-center items-center">
                                 <!-- White Banner  -->

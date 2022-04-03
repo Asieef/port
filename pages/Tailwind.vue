@@ -6,31 +6,29 @@
             </NuxtLink>
         </div>
         <div>
-            <img src="portfolio/valuetop-header.jpg" />
+            <img src="portfolio/tailwind-header.jpg" />
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="text-3xl flex items-center font-display">VALUETOP.NET API Based Website Design</h2>
+            <h2 class="text-3xl flex items-center font-display">Tailwind - Responsive Website Built With Tailwind CSS
+            </h2>
         </div>
         <div class="grid grid-cols-2">
             <div class="col-span-1 px-24">
                 <p class="text-sm text-[#232323] font-medium leading-7">
-                    This website is based on API, where the products are being fetched from
-                    a JSON database. The site is designed with Tailwind CSS Framework.
-                    Axios has been used to fetch the data, the site is fast and efficient
-                    for users. Some technical specs of the project includes :
+                    This template has been built with Tailwind CSS framework. The site is mobile responsive.
+                    Grid & flexboxes have been used throughout for the segmentation and alignment of the
+                    layout. Fontawesome icons and svg images have been used.
 
                 <ul class=" list-disc px-4 py-2">
-                    <li>Component Based</li>
-                    <li>Nuxt SEO</li>
+                    <li>Grid </li>
+                    <li>Flex</li>
+                    <li>Fontawesome</li>
+                    <li>SVG images</li>
+                    <li>Nuxt JS</li>
                     <li>Hot Reload</li>
-                    <li>Mobile Responsive</li>
-                    <li>Transition Animation</li>
-                    <li>Conditional Rendering</li>
-                    <li>Data Binding</li>
-                    <li>List Output</li>
-                    <li>Dynamic Class</li>
-                    <li>Custom Events</li>
+                    <li>Fast Load</li>
+                    <li>Custom Fonts</li>
 
                 </ul>
                 </p>
@@ -49,7 +47,7 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Features :
-                                <span class="font-light">Search, Loading Bar, Responsive</span>
+                                <span class="font-light">Mobile Responsive, Custom Fonts, Grid, Flex</span>
                             </h2>
                         </li>
 
@@ -63,8 +61,8 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Livedemo :
-                                <a href="https:/valuetop.net/" class="hover:text-gray-500" target="blank">
-                                    <span class="font-light">https://www.valuetop.net/</span>
+                                <a href="https://tailwind-blond.vercel.app/" class="hover:text-gray-500" target="blank">
+                                    <span class="font-light">https://tailwind-blond.vercel.app/</span>
                                 </a>
                             </h2>
                         </li>

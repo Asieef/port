@@ -6,19 +6,19 @@
             </NuxtLink>
         </div>
         <div>
-            <img src="portfolio/valuetop-header.jpg" />
+            <img src="portfolio/rongta-header.jpg" />
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="text-3xl flex items-center font-display">VALUETOP.NET API Based Website Design</h2>
+            <h2 class="text-3xl flex items-center font-display">Rongta.com.bd API Based Website Design</h2>
         </div>
         <div class="grid grid-cols-2">
             <div class="col-span-1 px-24">
                 <p class="text-sm text-[#232323] font-medium leading-7">
-                    This website is based on API, where the products are being fetched from
-                    a JSON database. The site is designed with Tailwind CSS Framework.
+                    Rongta website is based on API, where the products are being fetched from
+                    a JSON database. The site is completely designed with Tailwind CSS Framework.
                     Axios has been used to fetch the data, the site is fast and efficient
-                    for users. Some technical specs of the project includes :
+                    for users.
 
                 <ul class=" list-disc px-4 py-2">
                     <li>Component Based</li>
@@ -49,7 +49,7 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Features :
-                                <span class="font-light">Search, Loading Bar, Responsive</span>
+                                <span class="font-light">Search,Class Binding, Responsiveness</span>
                             </h2>
                         </li>
 
@@ -63,8 +63,8 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Livedemo :
-                                <a href="https:/valuetop.net/" class="hover:text-gray-500" target="blank">
-                                    <span class="font-light">https://www.valuetop.net/</span>
+                                <a href="https:/rongta.com.bd/" class="hover:text-gray-500" target="blank">
+                                    <span class="font-light">https://www.rongta.com.bd/</span>
                                 </a>
                             </h2>
                         </li>
