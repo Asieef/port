@@ -6,31 +6,27 @@
             </NuxtLink>
         </div>
         <div>
-            <img src="portfolio/rongta-header.jpg" />
+            <img src="portfolio/airlock-header.jpg" />
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="text-3xl flex items-center font-display">Rongta.com.bd API Based Website Design</h2>
+            <h2 class="text-3xl flex items-center font-display">Airlock - Responsive HTML Template
+            </h2>
         </div>
         <div class="grid grid-cols-2">
             <div class="col-span-1 px-24">
                 <p class="text-sm text-[#232323] font-medium leading-7">
-                    Rongta website is based on API, where the products are being fetched from
-                    a JSON database. The site is completely designed with Tailwind CSS Framework.
-                    Axios has been used to fetch the data, the site is fast and efficient
-                    for users.
+                    This template has been made with HTML & CSS only. CSS grid and flex have
+                    been used for the structure and aligment of components. Transition with
+                    blur effects have also been used.
 
                 <ul class=" list-disc px-4 py-2">
-                    <li>Component Based</li>
-                    <li>Nuxt SEO</li>
-                    <li>Hot Reload</li>
+                    <li>Grid </li>
+                    <li>Flex</li>
+                    <li>Fontawesome</li>
+                    <li>Transition</li>
+                    <li>Animation</li>
                     <li>Mobile Responsive</li>
-                    <li>Transition Animation</li>
-                    <li>Conditional Rendering</li>
-                    <li>Data Binding</li>
-                    <li>List Output</li>
-                    <li>Dynamic Class</li>
-                    <li>Custom Events</li>
 
                 </ul>
                 </p>
@@ -42,29 +38,29 @@
                         <li class="border-b border-[#fecd45] pb-4">
                             <h2 class="font-semibold">
                                 Core Technologies :
-                                <span class="font-light">Vue.JS, Nuxt.JS, Tailwind CSS</span>
+                                <span class="font-light">HTML, CSS</span>
                             </h2>
                         </li>
 
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Features :
-                                <span class="font-light">Search,Class Binding, Responsiveness</span>
+                                <span class="font-light">Mobile Responsive,CSS,Transition</span>
                             </h2>
                         </li>
 
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
-                                Front-end Tools:
-                                <span class="font-light">Tailwind CSS, Illustrator, Photoshop</span>
+                                Front-end Tools :
+                                <span class="font-light">Illustrator, Photoshop</span>
                             </h2>
                         </li>
 
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Livedemo :
-                                <a href="https:/rongta.com.bd/" class="hover:text-gray-500" target="blank">
-                                    <span class="font-light">https://www.rongta.com.bd/</span>
+                                <a href="https://asieef.github.io/Air-Lock/" class="hover:text-gray-500" target="blank">
+                                    <span class="font-light">https://asieef.github.io/Air-Lock/</span>
                                 </a>
                             </h2>
                         </li>

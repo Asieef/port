@@ -221,7 +221,7 @@
             <div class="col-span-1">
                 <div class="grid grid-rows-2 gap-4">
                     <!-- Right Top -->
-                    <NuxtLink to>
+                    <NuxtLink to="/airlock">
                         <div class="row-span-1" @mouseenter="toggleSpecA" @mouseleave="toggleSpecA">
                             <div class="relative flex justify-center items-center">
                                 <!-- White Banner  -->
@@ -267,7 +267,7 @@
 
                     <!-- Right Bottom Vue -->
 
-                    <NuxtLink to>
+                    <NuxtLink to="/vue">
                         <div
                             class="row-span-1"
                             @mouseenter="toggleSpecVue"

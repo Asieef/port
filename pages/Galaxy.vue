@@ -52,7 +52,7 @@
 
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
-                                Frontend :
+                                Front-end Tools :
                                 <span class="font-light">Illustrator, Photoshop</span>
                             </h2>
                         </li>
