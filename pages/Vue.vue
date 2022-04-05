@@ -10,11 +10,11 @@
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="text-3xl flex items-center font-display">Vue.JS - Vue Website
+            <h2 class="lg:text-3xl flex items-center font-display">Vue.JS - Vue Website
             </h2>
         </div>
-        <div class="grid grid-cols-2">
-            <div class="col-span-1 px-24">
+        <div class="grid lg:grid-cols-2 gap-4 mx-auto container">
+            <div class="col-span-1 lg:px-24 px-8">
                 <p class="text-sm text-[#232323] font-medium leading-7">
                     This template has been made with Vue.JS Framework and CSS. The hot
                     reload (router) feature of Vue.JS makes the site very fast.
@@ -32,7 +32,7 @@
 
             <div class="col-span-1 text-[#232323] flex justify-center text-sm">
                 <div>
-                    <ul class="px-20">
+                    <ul class="lg:px-20 px-8">
                         <li class="border-b border-[#fecd45] pb-4">
                             <h2 class="font-semibold">
                                 Core Technologies :

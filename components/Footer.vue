@@ -11,7 +11,7 @@
             <h2 class="pt-4">01710-279739</h2>
         </div>
 
-        <div class="text-xs font-display text-gray-700 text-right py-8">
+        <div class="text-xs font-display text-gray-700 lg:text-right text-center py-8">
             <h2 class>© 2022 | All Rights Resevered</h2>
         </div>
     </div>

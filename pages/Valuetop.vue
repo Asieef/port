@@ -10,10 +10,10 @@
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="text-3xl flex items-center font-display">VALUETOP.NET API Based Website Design</h2>
+            <h2 class="lg:text-3xl flex items-center font-display">VALUETOP.NET API Based Website Design</h2>
         </div>
-        <div class="grid grid-cols-2">
-            <div class="col-span-1 px-24">
+        <div class="grid lg:grid-cols-2 mx-auto container gap-4">
+            <div class="col-span-1 lg:px-24 px-8">
                 <p class="text-sm text-[#232323] font-medium leading-7">
                     This website is based on API, where the products are being fetched from
                     a JSON database. The site is designed with Tailwind CSS Framework.
@@ -36,9 +36,9 @@
                 </p>
             </div>
 
-            <div class="col-span-1 text-[#232323] flex justify-center text-sm">
+            <div class="col-span-1 text-[#232323] flex lg:justify-center text-sm">
                 <div>
-                    <ul class="px-20">
+                    <ul class="lg:px-20 px-8">
                         <li class="border-b border-[#fecd45] pb-4">
                             <h2 class="font-semibold">
                                 Core Technologies :

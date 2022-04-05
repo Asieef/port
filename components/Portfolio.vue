@@ -1,13 +1,13 @@
 <template>
-    <div>
+    <div class="container mx-auto">
         <div class="flex justify-center items-center mt-10">
-            <h2 class="font-display text-[40px] font-light mr-4 text-[#232323]">Project</h2>
+            <h2 class="font-display lg:text-[40px] font-light mr-4 text-[#232323]">Project</h2>
             <h2
-                class="font-display text-[40px] font-semibold text-[#232323] border-b-2 border-[#fecd45]"
+                class="font-display lg:text-[40px] font-semibold text-[#232323] border-b-2 border-[#fecd45]"
             >Works</h2>
         </div>
         <!-- Wrapper Div -->
-        <div class="grid grid-cols-2 mx-4 font-display gap-4 mt-16">
+        <div class="grid lg:grid-cols-2 mx-4 font-display gap-4 mt-16">
             <!-- Left Panel -->
             <div class="col-span-1">
                 <!-- Left Top -->
