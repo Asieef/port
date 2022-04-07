@@ -65,7 +65,7 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Livedemo :
-                                <a href="https:/rongta.com.bd/" class="hover:text-gray-500" target="blank">
+                                <a href="https://rongta.com.bd/" class="hover:text-gray-500" target="blank">
                                     <span class="font-light">https://www.rongta.com.bd/</span>
                                 </a>
                             </h2>
