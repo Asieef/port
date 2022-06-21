@@ -2,7 +2,7 @@
     <div class="font-display">
                 <HomeBar/>
         <div>
-            <img src="portfolio/remax-header.jpg" />
+            <img src="portfolio/havit-header.jpg" />
         </div>
 
         <div class="flex justify-center py-12">
@@ -55,8 +55,8 @@
                         <li class="border-b border-[#fecd45] py-4">
                             <h2 class="font-semibold">
                                 Livedemo :
-                                <a href="https://iremax.com.bd/" class="hover:text-gray-500" target="blank">
-                                    <span class="font-light">https://iremax.com.bd/</span>
+                                <a href="https://havit.com.bd/" class="hover:text-gray-500" target="blank">
+                                    <span class="font-light">https://havit.com.bd/</span>
                                 </a>
                             </h2>
                         </li>

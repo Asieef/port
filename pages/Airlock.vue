@@ -1,10 +1,9 @@
 <template>
     <div class="font-display">
-        <div class="h-16 bg-gray-100 text-xl text-[#232323] flex items-center font-semibold font-display px-8">
-            <NuxtLink to="/">
-                <h2 class="hover:border-b-2 border-[#fecd45]">Home</h2>
-            </NuxtLink>
-        </div>
+       
+        <HomeBar/>
+
+
         <div>
             <img src="portfolio/airlock-header.jpg" />
         </div>

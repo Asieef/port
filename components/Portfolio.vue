@@ -279,7 +279,7 @@
 
           <!-- Right Bottom Vue -->
 
-          <NuxtLink to="/vue">
+          <NuxtLink to="/havit">
             <div
               class="row-span-1"
               @mouseenter="toggleSpecVue"
@@ -309,10 +309,10 @@
                       <div class="text-center">
                         <div>
                           <h2 class="text-gray-800 font-medium text-sm">
-                            VUE.JS
+                            Havit
                           </h2>
                           <h2 class="text-gray-600 text-xs py-4">
-                            Website Made With VUE.JS
+                            Website Made With Nuxt.JS
                           </h2>
                         </div>
                       </div>
@@ -322,7 +322,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/vue-banner.jpg" />
+                <img src="/portfolio/havit-banner.jpg" />
               </div>
             </div>
           </NuxtLink>
