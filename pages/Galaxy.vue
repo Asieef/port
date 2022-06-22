@@ -1,7 +1,7 @@
 <template>
     <div class="font-display">
                 <HomeBar/>
-        <div>
+        <div class=" border-2 p-4">
             <img src="portfolio/galaxy-header.jpg" />
         </div>
 

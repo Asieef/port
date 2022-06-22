@@ -1,7 +1,8 @@
 <template>
     <div class="font-display">
                <HomeBar/>
-        <div>
+               <div class=" grid grid-flow-row justify-items-center">
+        <div class="border-2 p-4">
             <img src="portfolio/tailwind-header.jpg" />
         </div>
 
@@ -67,6 +68,7 @@
                     </ul>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </template>
