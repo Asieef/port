@@ -8,7 +8,7 @@
         </div>
 
         <div class="flex justify-center py-12">
-            <h2 class="lg:text-3xl flex items-center font-display">Remax-ECommerce Site | Nuxt.JS
+            <h2 class="lg:text-3xl flex items-center font-display">Havit-ECommerce Site | Nuxt.JS
             </h2>
         </div>
         <div class="grid lg:grid-cols-2 mx-auto container gap-4">
