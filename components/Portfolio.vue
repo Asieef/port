@@ -174,7 +174,7 @@
             </div>
           </div>
           <!-- Left Bottom -->
-          <NuxtLink to="/galaxy">
+          <NuxtLink to="/ideal">
             <div
               class="row-span-1"
               @mouseenter="toggleSpecG"
@@ -204,10 +204,10 @@
                       <div class="text-center">
                         <div>
                           <h2 class="text-gray-800 font-medium text-sm">
-                            Our Galaxy
+                            Ideal Power
                           </h2>
                           <h2 class="text-gray-600 text-xs py-4">
-                            Template Made With HTML & CSS
+                            Website Made with Tailwind & Nuxt.Js
                           </h2>
                         </div>
                       </div>
@@ -217,7 +217,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/galaxy-banner.jpg" />
+                <img src="/portfolio/ideal-banner.jpg" />
               </div>
             </div>
           </NuxtLink>
