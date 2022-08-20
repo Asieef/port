@@ -124,7 +124,7 @@
 
               <!-- Left Middle Tailwind -->
 
-              <NuxtLink to="tailwind">
+              <NuxtLink to="frontend">
                 <div
                   class="row-span-1"
                   @mouseenter="toggleSpecT"
@@ -154,10 +154,10 @@
                           <div class="text-center">
                             <div>
                               <h2 class="text-gray-800 font-medium text-sm">
-                                Tailwind
+                                Projects
                               </h2>
                               <h2 class="text-gray-600 text-xs py-4">
-                                HTML Template Built With Tailwind
+                                Small Projects on Front End Web Development
                               </h2>
                             </div>
                           </div>
@@ -167,7 +167,7 @@
 
                     <!-- White Banner Ends -->
 
-                    <img src="/portfolio/tailwind-banner.jpg" />
+                    <img src="/portfolio/frontend-banner.jpg" />
                   </div>
                 </div>
               </NuxtLink>
