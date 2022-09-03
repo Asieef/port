@@ -23,7 +23,34 @@
           </div>
         </div>
 
+        <!-- Job Listing Starts -->
         <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="relative mb-14 border">
+              <div class="rounded-lg overflow-hidden">
+                <img src="/front/joblist.jpg" alt="portfolio" class="w-full" />
+              </div>
+              <div
+                class="text-center bg-white relative z-10 py-2 px-3 rounded mx-7 -mt-20"
+              >
+                <span class="text-sm text-primary font-semibold block mb-2">
+                  Job Listing
+                </span>
+
+                <a
+                  href="https://job-listing-beta.vercel.app/"
+                  target="blank"
+                  class="w-full text-body-color text-sm font-semibold py-2 px-7 inline-block border rounded-md hover:bg-primary hover:border-primary hover:bg-[#FECD45] hover:text-white transition"
+                >
+                  See Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing Ends -->
+
+          <!-- To Do App Starts -->
+
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
             <div class="relative mb-14 border">
               <div class="rounded-lg overflow-hidden">
@@ -46,7 +73,9 @@
               </div>
             </div>
           </div>
+          <!-- To Do Ends -->
 
+          <!-- Interactive Chart Starts -->
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
             <div class="relative mb-14 border">
               <div class="rounded-lg overflow-hidden">
@@ -69,7 +98,9 @@
               </div>
             </div>
           </div>
+          <!-- Interactive Chart Ends -->
 
+          <!-- Fetch Profile Starts -->
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
             <div class="relative mb-14 border">
               <div class="rounded-lg overflow-hidden">
@@ -92,7 +123,9 @@
               </div>
             </div>
           </div>
+          <!-- Fetch Profile Ends -->
 
+          <!-- Advice Generator Starts -->
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
             <div class="relative mb-14 border">
               <div class="rounded-lg overflow-hidden">
@@ -115,6 +148,7 @@
               </div>
             </div>
           </div>
+          <!-- Advice Generator Ends -->
         </div>
       </div>
     </section>
