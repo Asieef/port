@@ -65,7 +65,7 @@
 
                         <!-- White Banner Ends -->
 
-                        <img src="/portfolio/valuetop-banner.jpg" />
+                        <img src="/portfolio/valuetop-banner-1.jpg" />
                       </div>
                     </div>
                   </NuxtLink>
@@ -115,7 +115,7 @@
 
                         <!-- White Banner Ends -->
 
-                        <img src="/portfolio/rongta-banner.jpg" />
+                        <img src="/portfolio/rongta-banner-1.jpg" />
                       </div>
                     </div>
                   </NuxtLink>
@@ -167,7 +167,7 @@
 
                     <!-- White Banner Ends -->
 
-                    <img src="/portfolio/frontend-banner.jpg" />
+                    <img src="/portfolio/frontend-banner-1.jpg" />
                   </div>
                 </div>
               </NuxtLink>
@@ -217,7 +217,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/ideal-banner.jpg" />
+                <img src="/portfolio/ideal-banner-1.jpg" />
               </div>
             </div>
           </NuxtLink>
@@ -272,7 +272,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/remax-banner.jpg" />
+                <img src="/portfolio/remax-banner-1.jpg" />
               </div>
             </div>
           </NuxtLink>
@@ -322,7 +322,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/havit-banner.jpg" />
+                <img src="/portfolio/havit-banner-1.jpg" />
               </div>
             </div>
           </NuxtLink>

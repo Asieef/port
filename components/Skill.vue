@@ -13,11 +13,11 @@
       </div>
       <div class="grid grid-cols-4 lg:h-[400px] h-[180px]">
         <div class="col-span-1 flex justify-center items-center">
-          <img src="/html5.png" class="lg:h-24 h-14" />
+          <img src="/bootstrap.png" class="lg:h-24 h-14" />
         </div>
 
         <div class="col-span-1 flex justify-center items-center">
-          <img src="/javascript.png" class="lg:h-24 h-14" />
+          <img src="/tailwind.png" class="lg:h-24 h-14" />
         </div>
 
         <div class="col-span-1 flex justify-center items-center">
@@ -28,7 +28,7 @@
           <img src="/nuxt.png" class="lg:h-24 h-14" />
         </div>
 
-        <div class="col-span-1 flex justify-center items-center">
+        <!-- <div class="col-span-1 flex justify-center items-center">
           <img src="/figma.png" class="lg:h-24 h-14" />
         </div>
 
@@ -42,7 +42,7 @@
 
         <div class="col-span-1 flex justify-center items-center">
           <img src="/github.png" class="lg:h-24 h-14" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
