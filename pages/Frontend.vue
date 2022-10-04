@@ -3,7 +3,7 @@
     <HomeBar />
     <!-- ====== Portfolio Section Start -->
     <section class="pt-8 lg:pt-[40px] pb-12 lg:pb-[40px] mx-8">
-      <div class="container">
+      <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
             <div class="text-center mx-auto mb-[60px] max-w-[510px]">
