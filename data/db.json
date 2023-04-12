@@ -1,0 +1,57 @@
+[
+	{
+		"id" : 1,
+        "title" : "Quiz App",
+        "description" : "A Quiz app done with Vue 3 composition API",
+        "link" : "https://asieef.github.io/quiz-live/",
+        "banner" : "/front/quiz.jpg"
+	},
+	
+    {
+		"id" : 2,
+        "title" : "Job Listing",
+        "description" : "A Vue 2 + Tailwind project",
+        "link" : "https://job-listing-beta.vercel.app/",
+        "banner" : "/front/joblist.jpg"
+	},
+
+    {
+		"id" : 3,
+        "title" : "To Do App",
+        "description" : "A Vue 2 + Tailwind project",
+        "link" : "https://asieef.github.io/to-do/",
+        "banner" : "/front/todo.jpg"
+	},
+
+    {
+		"id" : 4,
+        "title" : "Fetch Profile",
+        "description" : "API Call App",
+        "link" : "https://asieef.github.io/card/",
+        "banner" : "/front/profile.jpg"
+	},
+
+    {
+		"id" : 5,
+        "title" : "Advice Generator",
+        "description" : "API Call based App",
+        "link" : "https://asieef.github.io/advice/",
+        "banner" : "/front/advice.jpg"
+	},
+
+    {
+		"id" : 6,
+        "title" : "ECom - Add to Cart",
+        "description" : "VueX project for state management",
+        "link" : "https://asieef.github.io/ecom-demo/",
+        "banner" : "/front/ecom.jpg"
+	},
+
+    {
+		"id" : 7,
+        "title" : "Notes App",
+        "description" : "Notes App with Vue 3 composition API",
+        "link" : "https://asieef.github.io/notes-live/",
+        "banner" : "/front/notes.jpg"
+	}
+]
