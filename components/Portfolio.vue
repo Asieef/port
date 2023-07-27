@@ -204,10 +204,10 @@
                       <div class="text-center">
                         <div>
                           <h2 class="text-gray-800 font-medium text-sm">
-                            Ideal Power
+                            Weather App
                           </h2>
                           <h2 class="text-gray-600 text-xs py-4">
-                            Website Made with Tailwind & Nuxt.Js
+                            Real Time API Based Weather APP
                           </h2>
                         </div>
                       </div>
@@ -217,7 +217,7 @@
 
                 <!-- White Banner Ends -->
 
-                <img src="/portfolio/ideal-banner-1.jpg" />
+                <img src="/portfolio/weather_banner.jpg" />
               </div>
             </div>
           </NuxtLink>
